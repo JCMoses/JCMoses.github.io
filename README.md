@@ -1,4 +1,4 @@
-# Jeffrey C. Moses - Data Scientist
+# Data Scientist
 
 #### Technical Skills: R, Python, Shiny, Azure
 
