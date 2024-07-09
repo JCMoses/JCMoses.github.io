@@ -57,15 +57,4 @@
 - Undertook Traffic surveys, then data analysis of the results. These were then reported and presented, and conclusions used to plan future road infrastructure.
 - Undertook project management work, responsible for budgets and planning timelines.
 
-## Projects
-### Project 1 Title
 
-Project 1 Text
-
-![Image1 Caption](/file system location of image)
-
-### Project 2 Title
-
-Project 2 Text
-
-![Image2 Caption](/file system location of image)
