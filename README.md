@@ -57,4 +57,11 @@
 - Undertook Traffic surveys, then data analysis of the results. These were then reported and presented, and conclusions used to plan future road infrastructure.
 - Undertook project management work, responsible for budgets and planning timelines.
 
+## Projects
+### Customer Segmentation Project
+[Publication](https://github.com/RandomJeff1/Customer_Segmentation))
+
+Imported a the public "Chinook" dataset from SQLite and analysed the dataset to differentiate diffent kinds of customers using  **R**. The business question for this project was "Can we predict if a customer will make a new purchase within 90 days?" A data-driven approach led to better characterization of the different customers by analysing different kinds of variables to assist the classification model. The project was written up using R Markdown to allow for the work to be properly documented and repeatable. The results were presented in a **Shiny** app, which allowed the user to view characteristics of each customer, along with the likelihood of them making a new purchase within 90 days. A user can also select customers based on a strong likelihood of a new purchase in that timeframe to view their profile.
+
+![Customer Segmentation App](/assets/img/Customer_Segmentation_App.jpeg)
 
