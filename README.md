@@ -61,7 +61,14 @@
 ### Customer Segmentation Project
 [Code](https://github.com/RandomJeff1/Customer_Segmentation)
 
-Imported a the public "Chinook" dataset from SQLite and analysed the dataset to differentiate diffent kinds of customers using  **R**. The business question for this project was **"Can we predict if a customer will make a new purchase within 90 days?"** A data-driven approach led to better characterization of the different customers by analysing different kinds of variables to assist the classification model. The project was written up using R Markdown to allow for the work to be properly documented and repeatable. The results were presented in a **Shiny** app, which allowed the user to view characteristics of each customer, along with the likelihood of them making a new purchase within 90 days. A user can also select customers based on a strong likelihood of a new purchase in that timeframe to view their profile.
+Imported the dataset from SQLite and analysed it to differentiate diffent kinds of customers using  **R**. The business question for this project was **"Can we predict if a customer will make a new purchase within 90 days?"** A data-driven approach led to better characterization of the different customers by analysing different kinds of variables to assist the classification model. The project was written up using R Markdown to allow for the work to be properly documented and repeatable. The results were presented in a **Shiny** app, which allowed the user to view characteristics of each customer, along with the likelihood of them making a new purchase within 90 days. A user can also select customers based on a strong likelihood of a new purchase in that timeframe to view their profile.
 
 ![Customer Segmentation App](/assets/img/Customer_Segmentation_App.jpg)
 
+### Sales Prediction for next 90 days
+[Code](https://github.com/RandomJeff1/Nested_Timeseries)
+
+The business requirement for this project was clear: **Predict weekly sales for the next 90 days** for each of the datasets. This enables the business to prepare / order sufficient stock to meet the expected requirements. The goal is to improve ordering to reduce waste by over-ordering, and also to meet demand by ordering enough.
+This project was written in **R** and **R Markdown** and a report  has been generated in html format outlining the process.
+
+![Sales Predictions](/assets/img/Sales_Predictions.jpg)
