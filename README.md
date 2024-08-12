@@ -6,6 +6,32 @@
 - B.E., Civil Engineering | University of Sydney (_2006_)
 - B.Sc., Geology and Geophysics | University of Sydney (_2006_)
 
+## Projects
+### Construction Project Risk Management Dashboard
+
+This project was developed in order to better manage project-based risks for construction industry projects for a consulting engineering office. The major requirements were to enable a fast, easy way of adding, adjusting, importing and exporting risk assessments for projects. These should be easily visualised, with any areas of concern identified at a glance. The overall concentration of risks in different areas should also be visualised. It was also important that all risks could be easily exported to excel, and also imported so that details can be easily shared and incorporated quickly into the dashboard.
+The dashboard and analysis was written in **R** and **Shiny**.
+
+![Construction Project Risk Dashboard - Data Page](/assets/img/Risk_Dashboard_App_1.jpg)
+![Construction Project Risk Dashboard - Radar Plot](/assets/img/Risk_Dashboard_App_2.jpg)
+
+
+### Customer Segmentation Project
+[Code](https://github.com/RandomJeff1/Customer_Segmentation)
+
+Imported the dataset from SQLite and analysed it to differentiate diffent kinds of customers using  **R**. The business question for this project was **"Can we predict if a customer will make a new purchase within 90 days?"** A data-driven approach led to better characterization of the different customers by analysing different kinds of variables to assist the classification model. The project was written up using R Markdown to allow for the work to be properly documented and repeatable. The results were presented in a **Shiny** app, which allowed the user to view characteristics of each customer, along with the likelihood of them making a new purchase within 90 days. A user can also select customers based on a strong likelihood of a new purchase in that timeframe to view their profile.
+
+![Customer Segmentation App](/assets/img/Customer_Segmentation_App.jpg)
+
+### Sales Prediction for next 90 days
+[Code](https://github.com/RandomJeff1/Nested_Timeseries)
+
+The business requirement for this project was clear: **Predict weekly sales for the next 90 days** for each of the datasets. This enables the business to prepare / order sufficient stock to meet the expected requirements. The goal is to improve ordering to reduce waste by over-ordering, and also to meet demand by ordering enough.
+This project was written in **R** and **R Markdown** and a report  has been generated in html format outlining the process.
+
+![Sales Predictions](/assets/img/Sales_Predictions.jpg)
+
+
 ## Work Experience
 **Freelance Data Scientist @ Jeffrey C. Moses EPU (_July 2024 - Present_)**
 - Focus on solving business problems using data, not data or modelling for it's own sake.
@@ -57,18 +83,3 @@
 - Undertook Traffic surveys, then data analysis of the results. These were then reported and presented, and conclusions used to plan future road infrastructure.
 - Undertook project management work, responsible for budgets and planning timelines.
 
-## Projects
-### Customer Segmentation Project
-[Code](https://github.com/RandomJeff1/Customer_Segmentation)
-
-Imported the dataset from SQLite and analysed it to differentiate diffent kinds of customers using  **R**. The business question for this project was **"Can we predict if a customer will make a new purchase within 90 days?"** A data-driven approach led to better characterization of the different customers by analysing different kinds of variables to assist the classification model. The project was written up using R Markdown to allow for the work to be properly documented and repeatable. The results were presented in a **Shiny** app, which allowed the user to view characteristics of each customer, along with the likelihood of them making a new purchase within 90 days. A user can also select customers based on a strong likelihood of a new purchase in that timeframe to view their profile.
-
-![Customer Segmentation App](/assets/img/Customer_Segmentation_App.jpg)
-
-### Sales Prediction for next 90 days
-[Code](https://github.com/RandomJeff1/Nested_Timeseries)
-
-The business requirement for this project was clear: **Predict weekly sales for the next 90 days** for each of the datasets. This enables the business to prepare / order sufficient stock to meet the expected requirements. The goal is to improve ordering to reduce waste by over-ordering, and also to meet demand by ordering enough.
-This project was written in **R** and **R Markdown** and a report  has been generated in html format outlining the process.
-
-![Sales Predictions](/assets/img/Sales_Predictions.jpg)
