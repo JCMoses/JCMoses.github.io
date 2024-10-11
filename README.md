@@ -7,6 +7,22 @@
 - B.Sc., Geology and Geophysics | University of Sydney (_2006_)
 
 ## Projects
+### Sales Forecasting on Email Analytics Data
+
+For this project, the requirement was to provide a useful forecast of the future sales of an online store, to enable management to better plan inventories, staff requirements, and forecasted revenue. Daily data was used, which enabled good forecasts around sales and other marketing events. It also enabled management to see which days were more effective for sales and marketing events. Forecasting was conducted using a variety of different machine learning (including deep) algorithms, combining the best into weighted ensembles for greater accuracy. Data pipelines and ML pipelines were created to make the analysis repeatable and able to be updated with new data. The analysis was undertaken in **R** with some **Python** also used for the deep learning algorithms.
+
+![Sales Forecasting Projection](/assets/img/Sales_Prediction_Email_Analytics.jpg)
+
+### Email Lead Scoring with Forecasting
+
+This project involved classifying leads into categories based on a forecast likelihood of purchasing in the future. The initial business case was to separate the leads who are more likely to purchase from others, but with additional data analytics, it was found that a different strategy would nurture the less likely leads into those who were more likely to make purchases. This would reduce churn significantly, increasing sales. This project required analytical analysis of data, classification using various machine learning algorithms, and forecasting of future sales under different conditions. Data and ML pipelines were created to enable the analysis to be revisited with new data periodically. The Analysis was undertake using **Python**.
+
+
+### Stock Market Edge Analysis
+
+Traders require “edge” in order to consistently make money in the stock market. This project involved looking for different sources of edge and confirming / disproving their continued existence in the market. Different assets were analysed and back-tested against known sources of edge. Comparisons were made against benchmarks (SPY, 80/20 portfolio) and each edge was assessed for improvement over the benchmarks, max. drawdown size, and other statistics. This analysis was undertaken using the **R** language.
+
+
 ### Construction Project Risk Management Dashboard
 
 This project was developed in order to better manage project-based risks for construction industry projects for a consulting engineering office. The major requirements were to enable a fast, easy way of adding, adjusting, importing and exporting risk assessments for projects. These should be easily visualised, with any areas of concern identified at a glance. The overall concentration of risks in different areas should also be visualised. It was also important that all risks could be easily exported to excel, and also imported so that details can be easily shared and incorporated quickly into the dashboard.
@@ -19,7 +35,7 @@ The dashboard and analysis was written in **R** and **Shiny**.
 ### Customer Segmentation Project
 [Code](https://github.com/RandomJeff1/Customer_Segmentation)
 
-Imported the dataset from SQLite and analysed it to differentiate diffent kinds of customers using  **R**. The business question for this project was **"Can we predict if a customer will make a new purchase within 90 days?"** A data-driven approach led to better characterization of the different customers by analysing different kinds of variables to assist the classification model. The project was written up using R Markdown to allow for the work to be properly documented and repeatable. The results were presented in a **Shiny** app, which allowed the user to view characteristics of each customer, along with the likelihood of them making a new purchase within 90 days. A user can also select customers based on a strong likelihood of a new purchase in that timeframe to view their profile.
+Imported the dataset from SQLite and analysed it to differentiate different kinds of customers using  **R**. The business question for this project was **"Can we predict if a customer will make a new purchase within 90 days?"** A data-driven approach led to better characterization of the different customers by analysing different kinds of variables to assist the classification model. The project was written up using R Markdown to allow for the work to be properly documented and repeatable. The results were presented in a **Shiny** app, which allowed the user to view characteristics of each customer, along with the likelihood of them making a new purchase within 90 days. A user can also select customers based on a strong likelihood of a new purchase in that timeframe to view their profile.
 
 ![Customer Segmentation App](/assets/img/Customer_Segmentation_App.jpg)
 
@@ -56,7 +72,7 @@ This project was written in **R** and **R Markdown** and a report  has been gene
 **Engineering Planner and Structural Engineer @ Waagner-Biro Stahlbau AG (_January 2012 - May 2014_)**
 - Worked in the Steel and Glass Department, undertaking planning and design of engineering structures, tender planning and calculation, and design of steel temporary works.
 - Undertook structural design and planning of building facades, bridges, and steel building frames.
-- Worked closely with clients and architechts to 'trial' design ideas and determine viability.
+- Worked closely with clients and architects to 'trial' design ideas and determine viability.
 - Undertook reporting and documentation of work.
 
 **Bridge Design Engineer @ AECOM Australia Ltd (_June 2008 - August 2011_)**
