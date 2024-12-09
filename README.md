@@ -17,6 +17,7 @@ For this project, the requirement was to provide a useful forecast of the future
 
 This project involved classifying leads into categories based on a forecast likelihood of purchasing in the future. The initial business case was to separate the leads who are more likely to purchase from others, but with additional data analytics, it was found that a different strategy would nurture the less likely leads into those who were more likely to make purchases. This would reduce churn significantly, increasing sales. This project required analytical analysis of data, classification using various machine learning algorithms, and forecasting of future sales under different conditions. Data and ML pipelines were created to enable the analysis to be revisited with new data periodically. The Analysis was undertake using **Python**.
 
+![Expected Value Plot](/assets/img/Leads_scoring_expected_value_plot.jpg)
 
 ### Stock Market Edge Analysis
 
