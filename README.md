@@ -7,6 +7,16 @@
 - B.Sc., Geology and Geophysics | University of Sydney (_2006_)
 
 ## Projects
+### Logistics and Production Analytics Dashboard
+
+Explorartory analytics project for customer logistics and production data. Goal was to display requested details in a custom dashboard application. The app was required to be clear and simple to read information, allow for users to toggle to a "dark mode". Year-on-year metrics changes were displayed, with status of current year relative to previous indicated by colour. Production changes at different plants over time was also displayed, as well as the top clients by volume and top products by volume for the selected time-period.
+
+![Production_Dashboard_Dark_1](/assets/img/production_dash_dark_1.jpg)
+![Production_Dashboard_Dark_2](/assets/img/production_dash_dark_2.jpg)
+![Production_Dashboard_Light_1](/assets/img/production_dash_light_1.jpg)
+![Production_Dashboard_Light_2](/assets/img/production_dash_light_2.jpg)
+
+
 ### Sales Forecasting on Email Analytics Data
 
 For this project, the requirement was to provide a useful forecast of the future sales of an online store, to enable management to better plan inventories, staff requirements, and forecasted revenue. Daily data was used, which enabled good forecasts around sales and other marketing events. It also enabled management to see which days were more effective for sales and marketing events. Forecasting was conducted using a variety of different machine learning (including deep) algorithms, combining the best into weighted ensembles for greater accuracy. Data pipelines and ML pipelines were created to make the analysis repeatable and able to be updated with new data. The analysis was undertaken in **R** with some **Python** also used for the deep learning algorithms.
